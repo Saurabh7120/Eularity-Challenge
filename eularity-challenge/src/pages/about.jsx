@@ -19,8 +19,9 @@ const Centered = styled.div`
     }
 
     ul{
-        list-style-type: circle;
+        list-style-type: square;
         li{
+            text-align: left;
             margin-bottom: 10px;
         }
     }
@@ -31,7 +32,7 @@ const About = () => {
         <Layout>
             <Centered>
                 <p><Logo>Petgram</Logo> is a one-stop-shop for all your pet images.</p>
-                <p>Things you can do: </p>
+                <p >Things you can do: </p>
                 <ul>
                     <li>Browse pet images</li>
                     <li>Search for your favourite pet</li>
